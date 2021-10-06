@@ -1,4 +1,7 @@
-@import "./font/BurbankBigCondensed-Black.otf";
+@font-face {
+    font-family: Burbank Big Condensed;
+    src: url(./font/BurbankBigCondensed-Black.otf);
+}
 
 html {
     font-size: 62.5%;
@@ -87,4 +90,49 @@ nav {
 
 #check:checked ~ .nav-menu li {
     display:flex;
+}
+
+
+.background-img img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.main-container {
+    padding: 0px 16px 0px 16px;
+}
+
+.news-1, .news-2, .news-3, img{
+    position:static;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news-1, .news-2, .news-3, h2 {
+    font-family: 'Burbank Big Condensed',sans-serif;
+    text-align: center;
+    margin-top: 16px;
+    color: #4DCCFA;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    font-weight: 600;
+}
+
+.news-1, .news-2, .news-3, p {
+    font-family: 'Burbank Big Condensed',sans-serif;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: #2A2A2A;
+}
+
+.news-2, .news-3 {
+    margin-top: 120px;
 }
