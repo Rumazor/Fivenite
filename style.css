@@ -57,7 +57,7 @@ nav {
     background-color:rgba(42, 42, 42, 1);
     gap:20px;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 2.0rem;
     font-weight: 600;
 }
@@ -81,7 +81,7 @@ nav {
 .nav-menu .descargar-btn a {
     background-color: #FFFF01;
     font-family: "Burbank Big Condensed";
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: black;
 }  
 
