@@ -8,37 +8,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
     <title>Fivenite</title>
 </head>
 <body>
     <header>
         <nav>
-            <div>
-                <img src="assets/logo-epic-game.png" class="epicgames-logo">
-            </div>
-            <div>
+            <div class="header-logo">
+                <div class="menu-desktop-left">
+                    <img src="assets/logo-epic-game.png" class="epicgames-logo">
                 <img src="./assets/FIVENITE.svg" class="fivenite-logo">
+                <div class="menu-desktop">
+                    <ul class="menu-desktop-list">
+                    <li><a href="#">PASE DE BATALLA</a></li>
+                    <li><a href="#">MODO CREATIVO</a></li>
+                    <li><a href="#">SALVAR EL MUNDO</a></li>
+                    <li><a href="#">COMPETITIVO</a></li>
+                    <li><a href="#">NOTICIAS</a></li>
+                    <li><a href="#">AYUDA</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="menu-desktop-right">
+                    <div class="desktop-icons">
+                        <img src="./assets/search.svg" class="search-logo">
+                        <img src="./assets/globe.svg" class="globe-logo">
+                    </div>
+                    <ul class="menu-desktop-list-right">
+                    <li class="iniciar-sesion-btn-desktop"><a href="#">INICIAR SESIÓN</a></li>
+                    <li class="descargar-btn-desktop"><a href="#">DESCARGAR</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <img src="./assets/search.svg" class="seach-logo">
-            </div>
-            <div>
+            <div class="search">
+                <img src="./assets/search.svg" class="search-logo">
                 <img src="./assets/globe.svg" class="globe-logo" alt="">
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn">
+                    <i> <img src="./assets/align-justify.svg" alt=""></i>
+                </label>
+                <ul class="nav-menu">
+                    <li><a href="#">PASE DE BATALLA</a></li>
+                    <li><a href="#">MODO CREATIVO</a></li>
+                    <li><a href="#">SALVAR EL MUNDO</a></li>
+                    <li><a href="#">COMPETITIVO</a></li>
+                    <li><a href="#">NOTICIAS</a></li>
+                    <li><a href="#">AYUDA</a></li>
+                    <li class="iniciar-sesion-btn"><a href="#">INICIAR SESIÓN</a></li>
+                    <li class="descargar-btn"><a href="#">DESCARGAR</a></li>
+                </ul>
             </div>
-            <input type="checkbox" id="check">
-            <label for="check" class="bar-btn">
-                <i> <img src="./assets/align-justify.svg" alt=""></i>
-            </label>
-            <ul class="nav-menu">
-                <li><a href="#">PASE DE BATALLA</a></li>
-                <li><a href="#">MODO CREATIVO</a></li>
-                <li><a href="#">SALVAR EL MUNDO</a></li>
-                <li><a href="#">COMPETITIVO</a></li>
-                <li><a href="#">NOTICIAS</a></li>
-                <li><a href="#">AYUDA</a></li>
-                <li class="iniciar-sesion-btn"><a href="#">INICIAR SESIÓN</a></li>
-                <li class="descargar-btn"><a href="#">DESCARGAR</a></li>
-            </ul>
+
         </nav>
     </header>
     <div class="background-img">

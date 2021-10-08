@@ -37,6 +37,7 @@ nav {
 .epicgames-logo {
     width: 40px;
     height: 40px;
+    margin-right: 24px;
 }
 
 .fivenite-logo {
@@ -44,15 +45,53 @@ nav {
     height: 40px;
 }
 
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-desktop-left {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    gap: 20px;
+}
+
 .bar-btn {
     cursor: pointer;
+    flex: none;
+}
+
+.desktop-icons {
+    display: none;
+}
+
+.menu-desktop {
+    display: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-left: 24px;
+}
+
+.menu-desktop-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.menu-desktop-list li a {
+    color: #ccc
 }
 
 .nav-menu {
     display: flex;
     position: fixed;
     width:100%; 
-    top: 75px;
+    top: 70px;
     right: 0px;
     background-color:rgba(42, 42, 42, 1);
     gap:20px;
@@ -62,6 +101,9 @@ nav {
     font-weight: 600;
 }
 
+.menu-desktop-list-right {
+    display: none;
+}
 
 .descargar-btn {
     background-color: rgba(255, 255, 1, 1);
@@ -187,4 +229,3 @@ footer .list-2, .list-3{
     flex-direction: column;
     margin-top: 20px;
 }
-
